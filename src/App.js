@@ -42,7 +42,10 @@ function SignIn(){
     auth.signInWithPopup(provider)
   }
   return (
+    <div>
+    <p>Only Foy VIP people</p>
     <button onClick = {signInWithGoogle}>Sign in with Google</button>
+    </div>
   )
 }
 function SignOut(){
